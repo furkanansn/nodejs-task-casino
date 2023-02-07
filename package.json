@@ -7,7 +7,7 @@
     "dev": "nodemon src/server.ts",
     "test": "jest --config ./jest.config.js",
     "test:watch": "jest --watch",
-    "build": "rm -rf build/ && prettier --write source/ && tsc"
+    "build": "rm -rf build/ && prettier --write src/ && tsc"
   },
   "jest": {
     "collectCoverage": true
