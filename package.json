@@ -4,8 +4,7 @@
   "description": "Backend Test",
   "main": "src/server.ts",
   "scripts": {
-    "dev": "nodemon src/server.ts",
-    "start": "nodemon src/server.ts",
+    "dev": "nodemon src/server.ts",    
     "test": "jest --config ./jest.config.js",
     "test:watch": "jest --watch",
     "tsc": "./node_modules/typescript/bin/tsc",
