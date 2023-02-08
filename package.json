@@ -6,10 +6,9 @@
   "scripts": {
     "dev": "nodemon src/server.ts",    
     "test": "jest --config ./jest.config.js",
-    "test:watch": "jest --watch",
-    "tsc": "./node_modules/typescript/bin/tsc",
+    "test:watch": "jest --watch",    
     "build": "tsc",
-    "postinstall": "npm run build"
+    "start" : "node ./dist/server.js"    
   },
   "jest": {
     "collectCoverage": true
