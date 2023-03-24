@@ -16,7 +16,7 @@ export class RegisterDto {
     message:
       "Password is too short. Minimal length is $constraint1 characters.",
   })
-  @MaxLength(50, {
+  @MaxLength(20, {
     message: "Password is too long. Maximal length is $constraint1 characters.",
   })
   password: string;

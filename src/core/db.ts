@@ -10,7 +10,7 @@ const pool = new Pool({
 });
 
 
-const db = async (text: string, params: any) => {
+const db = async (text: string, params: any) => {   
   let response = await pool.query(text, params);
   return response.rows;
 };
